@@ -1,0 +1,53 @@
+.mission-section {
+  background: linear-gradient(
+    167deg,
+    rgba(40, 13, 87, 1) 0%,
+    rgba(54, 63, 159, 1) 100%
+  );
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.centered {
+  text-align: center;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.section-title h4 {
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 40px;
+}
+.section-title h4 span {
+  background: #28df99;
+  color: #003754;
+  padding: 3px 10px;
+  border-radius: 40px;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+@media (max-width: 450px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+.section-title h2 {
+  position: relative;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.4;
+  z-index: 1;
+  text-transform: capitalize;
+  display: block;
+  color: #ffffff;
+}
