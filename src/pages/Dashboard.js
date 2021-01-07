@@ -9,7 +9,7 @@ export default function Dashboard() {
             <div className='content-body'>
                 <div className='container'>
                     <DashWallet />
-                    
+                    <PieChart />
                 </div>
             </div>
         </>
