@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mycrypt/static/css/main.9bb6b385.chunk.css",
-    "main.js": "/mycrypt/static/js/main.b29ef5b5.chunk.js",
-    "main.js.map": "/mycrypt/static/js/main.b29ef5b5.chunk.js.map",
+    "main.js": "/mycrypt/static/js/main.d869a7f8.chunk.js",
+    "main.js.map": "/mycrypt/static/js/main.d869a7f8.chunk.js.map",
     "runtime-main.js": "/mycrypt/static/js/runtime-main.6ccab651.js",
     "runtime-main.js.map": "/mycrypt/static/js/runtime-main.6ccab651.js.map",
     "static/js/2.d24d813f.chunk.js": "/mycrypt/static/js/2.d24d813f.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.6ccab651.js",
     "static/js/2.d24d813f.chunk.js",
     "static/css/main.9bb6b385.chunk.css",
-    "static/js/main.b29ef5b5.chunk.js"
+    "static/js/main.d869a7f8.chunk.js"
   ]
 }
