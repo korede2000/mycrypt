@@ -145,7 +145,7 @@ export default class Leaderboard extends Component {
                                         <td className='rank-header sortAlpha' onClick={ this.sortUsersByName }> Name </td>
                                         <td className='rank-header' onClick={this.sortUsersByScore}> Score </td>
                                         <td className='rank-header'onClick={this.sortUsersByScore}>Fees</td>
-                                        <td className='rank-header'onClick={this.sortUsersByScore}>TOTAL VALUE</td>
+                                        <td className='rank-header'onClick={this.sortUsersByScore}>MDD(%)</td>
                                         <td className='rank-header'onClick={this.sortUsersByScore}>TOTAL RETURN</td>
                                     </tr>
                                     {
@@ -155,7 +155,7 @@ export default class Leaderboard extends Component {
                                             { user.page === this.state.page ? <td className='data'>{ user.name }</td> : null }
                                             { user.page === this.state.page ? <td className='data'>{ user.score }</td> : null }
                                             { user.page === this.state.page ? <td className='data'>{ user.fees}</td> : null}
-                                            { user.page === this.state.page ? <td className='data'>{ user.totalValue}</td> : null}
+                                            { user.page === this.state.page ? <td className='data'>{ user.mdd}</td> : null}
                                             { user.page === this.state.page ? <td className='data totalreturn'>{ user.totalReturn}</td> : null}
                                         </tr>
                                         )
