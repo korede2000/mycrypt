@@ -76,6 +76,7 @@ export default function Faq() {
         const newItems = data.filter((item) => item.category === category);
         setQuestions(newItems);
     }
+    console.log(setCategories);
     return (
         <>
             
