@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import logo1 from '../images/bt-left.png';
 import logo2 from '../images/particle-bottom-right.png';
@@ -43,14 +44,14 @@ export default function HomeBanner() {
                             </div>
                                 </div>
                                 <div class="Box__BoxWrapper-sc-9qo6sy-0 hHLgFu box banner-btn pd-left-0">
-                            <a class="btn btn-fill btn-ban" href="/#">
+                            <Link class="btn btn-fill btn-ban" to="/register">
                                         Sign Up
                                         <i><FaArrowRight /></i>
-                            </a>
-                                    <a className='btn btn-fill btn-ban white-btn' href='/#'>
+                            </Link>
+                                    <Link className='btn btn-fill btn-ban white-btn' to='/#'>
                                         White paper
                                         <i><FaArrowRight /></i>
-                                    </a>
+                                    </Link>
                             </div>
                             </div>
                         </div> 

@@ -12,6 +12,11 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
+import Wallet from './pages/Wallet';
+import Settings from './pages/Settings';
+import Model from './pages/Model';
+import SettingPreference from './pages/SettingPreference';
+import Security from './pages/Security';
 
 import './Css/bootstrap.min.css';
 import './App.css';
@@ -22,6 +27,11 @@ export default function App() {
       
       
       <Switch>
+        <Route path='/security' exact component ={Security} />
+        <Route path='/settings-preferences' exact component={SettingPreference} />
+        <Route path='/models' exact component={Model} />
+        <Route path='/account-setting' exact component ={Settings} />
+        <Route path='/account' exact component={Wallet} />
         <Route path='/dashboard' exact component={Dashboard} />
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />

@@ -1,59 +1,60 @@
-import React from 'react';
-import FusionCharts from "fusioncharts";
-import charts from "fusioncharts/fusioncharts.charts";
-import ReactFusioncharts from "react-fusioncharts";
+import React, {Component} from 'react';
+import { Doughnut } from 'react-chartjs-2';
 
-// Resolves charts dependancy
-charts(FusionCharts);
-
-const dataSource = {
-  chart: {
-    caption: "Android Distribution for our app",
-    subcaption: "For all users in 2017",
-    showpercentvalues: "1",
-    defaultcenterlabel: "Android Distribution",
-    aligncaptionwithcanvas: "0",
-    captionpadding: "0",
-    decimals: "1",
-    plottooltext:
-      "<b>$percentValue</b> of our Android users are on <b>$label</b>",
-    centerlabel: "# Users: $value",
-    theme: "candy"
-  },
-  data: [
-    {
-      label: "Ice Cream Sandwich",
-      value: "1000"
-    },
-    {
-      label: "Jelly Bean",
-      value: "5300"
-    },
-    {
-      label: "Kitkat",
-      value: "10500"
-    },
-    {
-      label: "Lollipop",
-      value: "18900"
-    },
-    {
-      label: "Marshmallow",
-      value: "17904"
+export default class PieChart extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      Data: {
+        labels: ['completed', 'pending', 'Others', 'Cancelled'],
+        datasets: [{
+          label: 'Transaction',
+          data: [25, 7, 10, 15],
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)'
+          ],
+          borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      
     }
-  ]
-};
+  }
 
-export default class PieChart extends React.Component {
   render() {
     return (
-      <ReactFusioncharts
-        type="doughnut2d"
-        width="100%"
-        height="100%"
-        dataFormat="JSON"
-        dataSource={dataSource}
-      />
-    );
+      <div class="option-identity-wrapper" style={{padding:'0px'}}>
+                <div class="card-header">
+                    <h4 class="card-title">TRANSACTION HISTORY  CHART</h4>
+                </div>
+        <div class="card-body">
+          <Doughnut
+          data={this.state.Data}
+          options={{
+            
+            title: {
+              display: true,
+              text: 'total transaction',
+              fontSize: 25
+            },
+            legend: {
+              display: true,
+              position: 'bottom'
+            }
+          }}
+        />
+                </div>
+      
+        
+      </div>
+    )
   }
 }

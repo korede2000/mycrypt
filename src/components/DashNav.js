@@ -34,7 +34,7 @@ const data = [
     },
     {
         id: 5,
-        url: '/signin',
+        url: '/login',
         text: 'Signout',
         icon: <FaPowerOff />,
         classStyle:'logout'
@@ -45,7 +45,7 @@ export default function DashNav() {
     return (
         <>
             <div className='header dashboard'>
-                <div className='container'>
+                <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-xl-12'>
                             <nav className='navbar navbar-expand-lg navbar-light px-0 justify-content-between'>
@@ -101,11 +101,14 @@ export default function DashNav() {
                 </div>
             </div>
             <div className='page_title'>
-                <div className='container'>
+                <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-xl-12'>
+                        <div className='col-xl-12' style={{display:'flex', marginTop:'10px'}}>
                             <div className='page_title-content'>
                                 <p>Welcome Back, <span>Akorede Special.</span></p>
+                            </div>
+                            <div className='connect-wallet'>
+                                <Link to='/'>Connect Wallet</Link>
                             </div>
                         </div>
                     </div>
