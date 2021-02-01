@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mycrypt/static/css/main.b122c92e.chunk.css",
+    "main.js": "/mycrypt/static/js/main.c3d2fb89.chunk.js",
+    "main.js.map": "/mycrypt/static/js/main.c3d2fb89.chunk.js.map",
+    "runtime-main.js": "/mycrypt/static/js/runtime-main.6ccab651.js",
+    "runtime-main.js.map": "/mycrypt/static/js/runtime-main.6ccab651.js.map",
+    "static/js/2.7978912d.chunk.js": "/mycrypt/static/js/2.7978912d.chunk.js",
+    "static/js/2.7978912d.chunk.js.map": "/mycrypt/static/js/2.7978912d.chunk.js.map",
+    "index.html": "/mycrypt/index.html",
+    "static/css/main.b122c92e.chunk.css.map": "/mycrypt/static/css/main.b122c92e.chunk.css.map",
+    "static/js/2.7978912d.chunk.js.LICENSE.txt": "/mycrypt/static/js/2.7978912d.chunk.js.LICENSE.txt",
+    "static/media/404.6ff55abe.png": "/mycrypt/static/media/404.6ff55abe.png",
+    "static/media/about-1.af863a8e.jpg": "/mycrypt/static/media/about-1.af863a8e.jpg",
+    "static/media/about-2.46cb07d0.png": "/mycrypt/static/media/about-2.46cb07d0.png",
+    "static/media/banner_img6.63c509c6.png": "/mycrypt/static/media/banner_img6.63c509c6.png",
+    "static/media/bt-left.56b0b68c.png": "/mycrypt/static/media/bt-left.56b0b68c.png",
+    "static/media/App.css": "/mycrypt/static/media/work-petern.aae59b0e.png",
+    "static/media/faq-image.a082a102.png": "/mycrypt/static/media/faq-image.a082a102.png",
+    "static/media/logo.77b26ff7.png": "/mycrypt/static/media/logo.77b26ff7.png",
+    "static/media/particle-bottom-right.4bc2a2b5.png": "/mycrypt/static/media/particle-bottom-right.4bc2a2b5.png",
+    "static/media/particle-top-left.7168a06c.png": "/mycrypt/static/media/particle-top-left.7168a06c.png",
+    "static/media/particle-top-right.6f946645.png": "/mycrypt/static/media/particle-top-right.6f946645.png",
+    "static/media/services-icon1.bf975106.svg": "/mycrypt/static/media/services-icon1.bf975106.svg",
+    "static/media/services-icon2.93c0e405.svg": "/mycrypt/static/media/services-icon2.93c0e405.svg",
+    "static/media/services-icon3.652fb884.svg": "/mycrypt/static/media/services-icon3.652fb884.svg",
+    "static/media/services-icon4.6e27b1ef.svg": "/mycrypt/static/media/services-icon4.6e27b1ef.svg",
+    "static/media/services-icon5.011990f8.svg": "/mycrypt/static/media/services-icon5.011990f8.svg",
+    "static/media/services-icon6.e4c61c5a.svg": "/mycrypt/static/media/services-icon6.e4c61c5a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ccab651.js",
+    "static/js/2.7978912d.chunk.js",
+    "static/css/main.b122c92e.chunk.css",
+    "static/js/main.c3d2fb89.chunk.js"
+  ]
+}
